@@ -2,8 +2,8 @@
   <mj-head>
     @@include('./includes/styles.mjml')
 
-    <mj-title>Anwert MJML Boilerplate</mj-title>
-    <mj-preview>Anwert MJML Boilerplate</mj-preview>
+    <mj-title>TODO</mj-title>
+    <mj-preview>TODO</mj-preview>
 
     <mj-raw>
       <link rel="shortcut icon" type="image/x-icon" href="https://anwert.io/favicon.ico">
@@ -11,7 +11,20 @@
   </mj-head>
 
   <mj-body background-color="#fff">
-    @@include('./partials/_hero.mjml')
+    
+    <mj-hero
+      background-height="469px"
+      height="469px"
+      background-width="600px"
+      background-url= "assets/images/beach.webp">
+      <mj-text
+        padding="50px 40px"
+        color="white"
+        align="right"
+        font-size="45px">
+        easy<b>bank</b>
+      </mj-text>
+    </mj-hero>
 
     <mj-section mj-class="section">
       <mj-column>
