@@ -96,10 +96,121 @@
           </p>
         </mj-text>
         <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left" background-color="red">
-          ICON Zum Video
+          Jetzt starten!
         </mj-button>
       </mj-column>
     </mj-section>
+
+    <!-- Expertenkommentare-->
+    <mj-wrapper padding-top="50px" background-color="#ADD8E6">
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <h3>
+            Expertenkommentare
+          </h3>
+          <p>
+            Lernen Sie, das Börsengeschehen noch besser zu verstehen und profitieren Sie von aktuellen Beiträgen unserer kompetenten Finanzexperten, die komplexe Zusammenhänge verständlich auf den Punkt bringen!
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="30%">
+        <mj-image
+            src="assets/images/vendor.png"
+            alt="" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text>
+          <b>Larissa Kravitz | Investorella</b>
+          <p>
+            Influencerin &amp Buch-Autorin („Money, Honey!“), Unternehmerin
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+        <mj-section>
+      <mj-column width="30%">
+        <mj-image
+            src="assets/images/vendor.png"
+            alt="" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text>
+          <b>Stefan Riße</b>
+          <p>
+            Kapitalmarktstratege
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+        <mj-section>
+      <mj-column width="30%">
+        <mj-image
+            src="assets/images/vendor.png"
+            alt="" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text>
+          <b>Robert Halver</b>
+          <p>
+            Finanzexperte, Leiter Kapitalmarktanalyse der Baader Bank AG, Frankfurt/Main
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left">
+          Zu den Beiträgen
+        </mj-button>
+        <mj-spacer/ height="50px">
+      </mj-column>
+    </mj-section>
+    </mj-wrapper>
+
+    <!-- Info Section -->
+    <mj-section padding-top="50px">
+      <mj-column width="48%" background-color="#98fb98" padding-bottom="30px">
+        <mj-image
+            src="assets/images/anwert-mindnode-project.png"
+            alt="" />
+        <mj-text>
+          <h3>
+          	Der easybank </br>Börsenführerschein.
+          </h3>
+          <p>
+            Mit dem gratis Börsen-</br>Führerschein die wichtigsten<br/>Fakten des Börsenhandels</br>lernen.
+          </p>
+        </mj-text>
+        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left">
+        Jetzt starten!
+        </mj-button>
+      </mj-column>
+      <mj-column width="4%">
+        <mj-spacer ></mj-spacer>
+      </mj-column>
+      <mj-column width="48%" background-color="#ADD8E6" padding-bottom="30px">
+        <mj-image
+            src="assets/images/anwert-mindnode-project.png"
+            alt="" />
+        <mj-text>
+          <h3>
+          	Jetzt in den Sommer-</br>urlaub starten.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida.
+          </p>
+        </mj-text>
+        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left">
+          Mehr erfahren
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+
 
     <mj-section mj-class="section share-bar">
       <mj-group>
