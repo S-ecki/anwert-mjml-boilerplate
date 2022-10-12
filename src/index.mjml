@@ -26,6 +26,7 @@
       </mj-text>
     </mj-hero>
 
+    <!-- Greetings Section -->
     <mj-section mj-class="section">
       <mj-column>
         <mj-text>
@@ -45,174 +46,60 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="section-top">
-      <mj-column width="100%">
-        <mj-text>
-          <h2>Some Examples</h2>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section mj-class="section-bottom">
-      <mj-column padding-right="7.5%" padding-bottom="30px" width="50%">
-        <mj-image
-          padding-bottom="15px"
-          src="assets/images/anwert-tmf-project.png"
-          alt="" />
-        <mj-text>
-          <h3>Internal Newsletter for TMF</h3>
-          <p>
-            Together with the TMF Group - a leading provider of business services - we have developed an internal newsletter that keeps their employees up to date in Germany, Austria &amp; Switzerland.
-          </p>
-        </mj-text>
-        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/">
-          View
-        </mj-button>
-      </mj-column>
-
-      <mj-column padding-left="7.5%" width="50%">
-        <mj-image
-          padding-bottom="15px"
-          src="assets/images/anwert-mindnode-project.png"
-          alt="" />
-        <mj-text>
-          <h3>Email Course from MindNode</h3>
-          <p>
-            We have shown MindNode's users how to use the app via an email course. Using crisp texts, clear graphics and short GIFs, we explained the features in a simple and playful way.
-          </p>
-        </mj-text>
-        <mj-button mj-class="cta-btn" href="https://anwert.io/work/mindnode/onboarding-mac-01.html">
-          View
-        </mj-button>
-      </mj-column>
-    </mj-section>
-
-    @@include('./partials/_divider.mjml')
-
-    <mj-section mj-class="section-top">
-      <mj-column width="100%">
-        <mj-text>
-          <h2>The Features</h2>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section padding="0 10px">
-      <mj-column padding-right="7.5%" padding-bottom="30px" width="50%">
-        <mj-image mj-class="feature-icon" src="assets/images/developer-friendly.png" alt="" />
-        <mj-text>
-          <h3>Easy to Learn</h3>
-          <p>
-            Templates should make the life of developers easier, not harder. That’s why our template can be developed and tested on several devices at the same time.
-          </p>
-        </mj-text>
-      </mj-column>
-
-      <mj-column padding-left="7.5%" padding-bottom="30px" width="50%">
-        <mj-image mj-class="feature-icon" src="assets/images/image-optimization.png" alt="" />
-        <mj-text>
-          <h3>Saving Resources</h3>
-          <p>
-            Image size can be automatically optimized to save bandwidth and user time. All this happens without you even noticing it as part of the gulp task.
-          </p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section mj-class="section-bottom">
-      <mj-column padding-right="7.5%" padding-bottom="30px" width="50%">
-        <mj-image padding-top="60px" src="assets/images/vendor.png" alt="" />
-        <mj-text>
-          <h3>Delivery-Tool Independent</h3>
-          <p>
-            You use Mailchimp, Mailjet, the good old Outlook or nothing like that? Our template is designed in a way that it can be used independently of the respective newsletter management tool.
-          </p>
-        </mj-text>
-      </mj-column>
-
-      <mj-column padding-left="7.5%" width="50%">
-        <mj-image padding-top="60px" src="assets/images/validation.png" alt="" />
-        <mj-text>
-          <h3>Clean Code</h3>
-          <p>
-            As in the household, the following also applies to coding: Small bugs can lead to great panic. Write clean MJML and HTML code using automatic validation via the built-in validation function.
-          </p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
+    <!-- Highlights Section Headers-->
     <mj-section>
       <mj-column>
-          <mj-button mj-class="cta-btn" href="https://github.com/anwert-io/anwert-mjml-boilerplate" target="_blank">
-            Download on GitHub 
-          </mj-button>
-        </mj-column>
-    </mj-section>
-
-    @@include('./partials/_divider.mjml')
-
-    <mj-section mj-class="section">
-      <mj-column>
         <mj-text>
-          <h2>Our Favorite Email Tools</h2>
-          <p>
-            For conception, text, design, testing as well as distribution and optimization, we have brought on board the best in their fields - with a toolbox of selected software, we build emails that inspire you in less than a tenth of a second.
-          </p>
-          <ul>
-            <li>
-              <a href="https://mindnode.com/">MindNode </a>
-              <span>to collect, structure and develop ideas.</span>
-            </li>
-            <li>
-              <a href="https://www.adobe.com/at/products/xd.html">Adobe XD </a>
-              <span>for custom designs that are quick and easy to create.</span>
-            </li>
-            <li>
-              <a href="https://www.grammarly.com/">Grammarly </a>
-              <span>To compose clear, mistake-free writing.</span>
-            </li>
-            <li>
-              <a href="https://litmus.com/">Litmus </a>
-              <span>to test even those clients you've never heard of.</span>
-            </li>
-            <li>
-              <a href="https://putsmail.com/">PutsMail </a>
-              <span>allows you to test emails in real-time before sending them.</span>
-            </li>
-            <li>
-              <a href="https://templates.mailchimp.com/resources/html-to-text/">HTML to Text Email Converter </a>
-              <span>coz some really get plain-text emails.</span>
-            </li>
-            <li>
-              <a href="https://mailchimp.com/">Mailchimp </a>
-              <span>is the tool you should use instead of the carrier pigeon.</span>
-            </li>
-            <li>
-              <a href="https://mailjet.com/">Mailjet </a>
-              <span>has more featueres than Mailchimp and servers in the EU.</span>
-            </li>
-            <li>
-              <a href="https://reallygoodemails.com/">Really Good Emails</a>
-              <span>Learn from the best.</span>
-            </li>
-          </ul>
+          <h1>
+            Die Highlights im Juni
+          </h1>	
+          <h3>
+            Börsenexperte Markus Koch <br> begeisterte in Wien.
+          </h3>
         </mj-text>
       </mj-column>
     </mj-section>
 
-    @@include('./partials/_divider.mjml')
-
-    <mj-section mj-class="section">
+    <!-- Highlights Section Body 1-->
+    <mj-section>
       <mj-column>
         <mj-text>
-          <h2>But enough about us.<br>What are you working on right now?</h2>
           <p>
-            Tell us what you think about our template and which cool projects you're working on right now. Tell us how you do email marketing and what we can do for you.
+            „Machen Kurse Nachrichten oder machen Nachrichten Kurse?“ Diese und viele andere Börse-Weisheiten gaben Markus Koch und Experten der DJE Kapital AG bei unserem Event am 23.6. in Wien zum Besten. Im Anschluss fand noch eine spannende Podiumsdiskussion statt.
           </p>
         </mj-text>
-        <mj-button mj-class="cta-btn" href="mail:hello@anwert.io" padding-bottom="40px">
-          Write us! 
-         </mj-button>
+        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left">
+          ICON Zum Video
+        </mj-button>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image
+          src="assets/images/anwert-mindnode-project.png"
+          alt="" />
       </mj-column>
     </mj-section>
 
+    <!-- Highlights Section Body 2-->
+    <mj-section padding-top="100px">
+      <mj-column width="50%">
+        <mj-image
+          src="assets/images/anwert-mindnode-project.png"
+          alt="" />
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          <h3>
+            Der easybank Börsenführerschein.
+          </h3>
+          <p>
+            Mit dem gratis Börsen-Führerschein die wichtigsten Fakten des Börsenhandels lernen. Wie funktioniert ein Wertpapierdepot? Welche Eigenschaften haben Fonds, ETFs und andere Wertpapiere? Wachsen Sie mit uns und schlagen Sie ihre persönliche Fahrtrichtung zum Online-Traden ein!
+          </p>
+        </mj-text>
+        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left" background-color="red">
+          ICON Zum Video
+        </mj-button>
+      </mj-column>
+    </mj-section>
 
     <mj-section mj-class="section share-bar">
       <mj-group>
