@@ -80,7 +80,7 @@
     </mj-section>
 
     <!-- Highlights Section Body 2-->
-    <mj-section padding-top="100px">
+    <mj-section padding-top="100px" padding-bottom="50px">
       <mj-column width="50%">
         <mj-image
           src="assets/images/anwert-mindnode-project.png"
@@ -209,66 +209,79 @@
       </mj-column>
     </mj-section>
 
+    <!-- Security Section -->
+    <mj-section background-color="#FAFAFA" padding-top="100px">
+      <mj-column width="10%">
+        <mj-text>
+          <h3>
+            ICON
+          </h3>
+        </mj-text>
+      </mj-column>
+      <mj-column width="90%">
+        <mj-text>
+          <h3>
+            Ihre Sicherheit ist uns wichtig - Schützen Sie sich vor Phishing-E-Mails
+          </h3>
+        </mj-text>
+      </mj-column>
 
+      <mj-column width="100%" border-left="3px solid green">
+        <mj-text>
+          <p>
+            easybank würde niemals per E-Mail nach sensiblen persönlichen Daten fragen. Dazu zählen insbesondere Verfügernummer, PIN, Kreditkartendaten, PIN-Code, Passwort und TAN.
+          </p>
+        </mj-text>
+      </mj-column>
 
+      <mj-column width=100%>
+        <mj-spacer></mj-spacer>
+      </mj-column>
 
-    <mj-section mj-class="section share-bar">
-      <mj-group>
-        <mj-column width="40%">
-          <mj-text>
-            <div style="padding-bottom:20px">
-              Do you like this?
-            </div>
-            <a href="mailto:hello@anwert.io?subject=The boilerplate is great&body=Hello Anwert Team, %0D%0A%0D%0A I loved what you did with the boilerplate!%0D%0A%0D%0A Kind Regards,%0D%0A%0D%0A"><img style="display: inline-block; margin-right: 10px; height: 30px !important" src="assets/images/thumbs-up-solid.png" alt="" width="30px" /></a>
-            <a href="mailto:hello@anwert.io?subject=I have a suggestion for the boilerplate&body=Hello Anwert Team, %0D%0A%0D%0A I have the following suggestion for the boilerplate: %0D%0A%0D%0A%0D%0A Kind Regards,%0D%0A%0D%0A"><img style="display: inline-block; height: 30px !important" src="assets/images/thumbs-down-solid.png" alt="" width="30px" /></a>
-          </mj-text>
-        </mj-column>
+      <mj-column width="100%" border-left="3px solid green">
+        <mj-text>
+          <p>
+            Geben Sie Ihre persönlichen Daten oder Zahlungsdaten nur auf verschlüsselten Seiten ein. Diese erkennen Sie am Schloss Symbol oder daran, dass in der Adressleiste des Browsers „https://…“ angezeigt wird.
+          </p>
+        </mj-text>
+      </mj-column>
 
-        <mj-column width="60%">
-          <mj-text align="right">
-            Share this<span class="hidden-on-mobile"> with your friends</span>!
-          </mj-text>
-          <mj-social align="right" padding="20px 0">
-            <mj-social-element
-              align="right"
-              padding="0 10px 0 0" 
-              name="facebook"
-              background-color="#333"
-              href="https://github.com/anwert-io/anwert-mjml-boilerplate"
-              ></mj-social-element>
-            <mj-social-element
-              align="right" 
-              padding="0 10px 0 0"
-              name="twitter"
-              background-color="#333"
-              href="https://github.com/anwert-io/anwert-mjml-boilerplate"
-              ></mj-social-element>
-            <mj-social-element
-              align="right" 
-              padding="0 10px 0 0"
-              name="linkedin"
-              background-color="#333"
-              href="https://github.com/anwert-io/anwert-mjml-boilerplate"
-              ></mj-social-element>
-            <mj-social-element
-              align="right" 
-              padding="0 10px 0 0"
-              name="xing"
-              background-color="#333"
-              href="https://github.com/anwert-io/anwert-mjml-boilerplate"
-              ></mj-social-element>
-            <mj-social-element
-              align="right" 
-              src="assets/images/envelope-solid.png"
-              padding="0 0 0 0"  
-              name="email"
-              background-color="#333"
-              href="mailto:?subject=Check out this awesome MJML project!&body=https://github.com/anwert-io/anwert-mjml-boilerplate">
-            </mj-social-element>
-          </mj-social>
-        </mj-column>
-      </mj-group>
-    </mj-section>    
+      <mj-column width=100%>
+        <mj-spacer></mj-spacer>
+      </mj-column>
+
+      <mj-column width="100%" border-left="3px solid green">
+        <mj-text>
+          <p>
+            Rufen Sie Links über den Browser auf, wenn Sie unsicher sein sollten, ob der E-Mail-Absender vertrauenswürdig ist. 
+          </p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width=100%>
+        <mj-spacer></mj-spacer>
+      </mj-column>
+
+      <mj-column width="100%" border-left="3px solid green">
+        <mj-text>
+          <p>
+            Wir kontaktieren Sie im Missbrauchsverdacht. Halten Sie Ihre Kontaktdaten bei uns immer aktuell.
+          </p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width=100%>
+        <mj-spacer></mj-spacer>
+      </mj-column>
+
+      <mj-column width="100%" padding-bottom="50px">
+        <mj-text font-weight="700">
+          Mehr Tipps für Ihre Sicherheit und aktuelle Phishing-Warnungen finden Sie auf unserem Sicherheitsportal https://www.easybank.at/sicher 
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
 
     @@include('./partials/_footer.mjml')
   </mj-body>

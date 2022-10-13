@@ -1,40 +1,35 @@
-    <mj-section mj-class="footer">
-      <mj-column width="100%">
-        <mj-image href="https://anwert.io" align="center" src="https://anwert.io/wp-content/uploads/2018/04/anwert-logo-black.png" alt="Anwert" padding="20px 0" width="190px" />
+    <mj-wrapper mj-class="footer">
+    <mj-section>
+      <mj-column width="60%">
+        <mj-text>
+          <p>
+            <b>Kontakt:</b><br/>
+            easybank Service Center<br/>
+            Wiedner Gürtel 11,  1100 Wien<br/>
+            <a>www.easybank.at</a>
+          </p>
+        </mj-text>
       </mj-column>  
-
-      <mj-column width="100%">
-        <mj-text align="center">
-          <ul class="footer-links">
-            <li><a href="https://anwert.io">Website</a></li>
-            <li><a href="https://anwert.io/impressum/">Imprint</a></li>
-            <li><a href="https://anwert.io/privacy/">Privacy</a></li>
-            <li><a href="*|UNSUB|*">Unsubscribe</a></li>
-          </ul>
+      <mj-column width="40%">
+        <mj-text>
+          Abmelden<br/>
+          Impressum<br/>
+          Geschäftsbedingungen<br/>
+          Datenschutz<br/>
+          Nutzungsbedingungen
         </mj-text>
       </mj-column>
+    </mj-section>
 
+    <mj-section>  
       <mj-column width="100%">
-        <mj-social padding="20px 0">
-          <mj-social-element 
-            padding="5px"
-            name="linkedin-noshare"
-            href="https://www.linkedin.com/company/anwert/"></mj-social-element>
-          <mj-social-element 
-            padding="5px"
-            name="xing-noshare"
-            href="https://www.xing.com/companies/anwertunternehmensberatung"></mj-social-element>
-        </mj-social>
-      </mj-column>
-
-      <mj-column width="100%">
-        <mj-text align="center">
+        <mj-text>
           <p class="footer-anschrift">
-              &copy; 2019 \ Anwert Unternehmensberatung e. U.<br/>
-              Seitenstettengasse 5/37, A-1010 Vienna<br/>
-              <a href="mailto:hello@anwert.io">hello@anwert.io</a><br />
-              FN 473461t
+             BAWAG P.S.K. Bank für Arbeit und Wirtschaft und <br/>
+             Österreichische Postsparkasse Aktiengesellschaft <br/>
+             Handelsgericht Wien  |  FN205340x 
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
+    </mj-wrapper>
