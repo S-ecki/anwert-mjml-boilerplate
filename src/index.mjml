@@ -10,13 +10,13 @@
     </mj-raw>
   </mj-head>
 
-  <mj-body background-color="#fff">
+  <mj-body background-color="#fff" >
     
     <mj-hero
       background-height="469px"
       height="469px"
       background-width="600px"
-      background-url= "assets/images/beach.webp">
+      background-url= "assets/images/beach-header.png">
       <mj-text
         padding="50px 40px"
         color="white"
@@ -27,7 +27,7 @@
     </mj-hero>
 
     <!-- Greetings Section -->
-    <mj-section mj-class="section">
+    <mj-section mj-class="section" padding-top="40px">
       <mj-column>
         <mj-text>
           <p>
@@ -47,7 +47,7 @@
     </mj-section>
 
     <!-- Highlights Section Headers-->
-    <mj-section>
+    <mj-section mj-class="section" padding-top="40px">
       <mj-column>
         <mj-text>
           <h1>
@@ -61,7 +61,7 @@
     </mj-section>
 
     <!-- Highlights Section Body 1-->
-    <mj-section>
+    <mj-section mj-class="section-left">
       <mj-column>
         <mj-text>
           <p>
@@ -80,7 +80,7 @@
     </mj-section>
 
     <!-- Highlights Section Body 2-->
-    <mj-section padding-top="100px" padding-bottom="50px">
+    <mj-section mj-class="section-right" padding-top="120px" padding-bottom="90px">
       <mj-column width="50%">
         <mj-image
           src="assets/images/anwert-mindnode-project.png"
@@ -102,7 +102,7 @@
     </mj-section>
 
     <!-- Expertenkommentare-->
-    <mj-wrapper padding-top="50px" background-color="#ADD8E6">
+    <mj-wrapper padding="60px 70px 70px 70px" background-color="#ADD8E6">
     <mj-section>
       <mj-column>
         <mj-text>
@@ -171,7 +171,7 @@
     </mj-wrapper>
 
     <!-- Info Section -->
-    <mj-section padding-top="50px">
+    <mj-section padding-top="63px">
       <mj-column width="48%" background-color="#98fb98" padding-bottom="30px">
         <mj-image
             src="assets/images/anwert-mindnode-project.png"
@@ -209,8 +209,37 @@
       </mj-column>
     </mj-section>
 
+
+
+    <!-- Image CTA Section -->
+    <mj-section padding-top="95px" padding-bottom="270px">
+      <mj-column width="100%">
+        <mj-image
+          src="assets/images/beach.webp"
+          css-class="custom-image"
+          height="200px"
+          width="300px"
+          container-background-color="white"
+          />
+      </mj-column>
+      <mj-column width="100%" background-color="#98fb98" padding-bottom="45px">
+        <mj-text align="center">
+          <h1>
+            Jetzt in den Sommerurlaub starten.
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.
+        </mj-text>
+        <mj-button background-color="green" mj-class="cta-btn" align="center">
+          Mehr erfahren
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+
     <!-- Security Section -->
-    <mj-section background-color="#FAFAFA" padding-top="100px">
+    <mj-section background-color="#DADADA" mj-class="section" padding-top="60px">
       <mj-column width="10%">
         <mj-text>
           <h3>
@@ -279,10 +308,43 @@
           Mehr Tipps für Ihre Sicherheit und aktuelle Phishing-Warnungen finden Sie auf unserem Sicherheitsportal https://www.easybank.at/sicher 
         </mj-text>
       </mj-column>
-
     </mj-section>
 
 
-    @@include('./partials/_footer.mjml')
+    <mj-wrapper mj-class="footer">
+    <mj-section>
+      <mj-column width="60%">
+        <mj-text>
+          <p>
+            <b>Kontakt:</b><br/>
+            easybank Service Center<br/>
+            Wiedner Gürtel 11,  1100 Wien<br/>
+            <a>www.easybank.at</a>
+          </p>
+        </mj-text>
+      </mj-column>  
+      <mj-column width="40%">
+        <mj-text>
+          Abmelden<br/>
+          Impressum<br/>
+          Geschäftsbedingungen<br/>
+          Datenschutz<br/>
+          Nutzungsbedingungen
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>  
+      <mj-column width="100%">
+        <mj-text>
+          <p class="footer-anschrift">
+             BAWAG P.S.K. Bank für Arbeit und Wirtschaft und <br/>
+             Österreichische Postsparkasse Aktiengesellschaft <br/>
+             Handelsgericht Wien  |  FN205340x 
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>
