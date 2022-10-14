@@ -13,15 +13,16 @@
   <mj-body background-color="#fff" >
     
     <mj-hero
-      background-height="469px"
-      height="469px"
+      background-height="400px"
+      height="400px"
       background-width="600px"
       background-url= "assets/images/beach-header.png">
       <mj-text
-        padding="50px 40px"
+        padding="40px 40px"
         color="white"
         align="right"
-        font-size="45px">
+        font-size="45px"
+        font-weight="100">
         easy<b>bank</b>
       </mj-text>
     </mj-hero>
@@ -50,12 +51,12 @@
     <mj-section mj-class="section" padding-top="40px">
       <mj-column>
         <mj-text>
-          <h1>
+          <h1 class="green-headline">
             Die Highlights im Juni
           </h1>	
-          <h3>
+          <p class="subtitle">
             Börsenexperte Markus Koch <br> begeisterte in Wien.
-          </h3>
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
