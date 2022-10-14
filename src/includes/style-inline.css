@@ -8,10 +8,8 @@ h1 {
 }
 
 h2 {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 32px;
-  line-height: 42px
+  font-size: 30px;
+  line-height: 39px
 }
 
 h3 {
@@ -28,11 +26,40 @@ p {
   padding-bottom: 10px;
 }
 
-.green-headline {
+.green {
   color: #84B815;
+}
+
+.green-bg {
+  background-color: #ECF5DC
+}
+
+.blue-bg {
+  background-color: #DCECF2
+}
+
+.grey-bg {
+  background-color: #DADADA;
 }
 
 .subtitle {
   font-size: 20px;
   line-height: 27px;
+}
+
+.security-text {
+  padding-left: 18px !important;
+}
+
+.custom-image img {
+  position: relative !important; 
+  margin-bottom: -70px !important;
+}
+
+.cta-header {
+  font-size: 50px;
+  padding: 0 50px;
+  line-height: 55px;
+  font-weight: lighter;
+  color: #5A5A5A;
 }
