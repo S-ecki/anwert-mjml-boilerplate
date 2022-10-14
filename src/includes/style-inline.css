@@ -17,7 +17,7 @@ h3 {
 }
 
 a {
-  color: #004E9E;
+  color: #84B815;
   text-decoration: none
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 .blue-bg {
-  background-color: #DCECF2
+  background-color: #DCECF2;
 }
 
 .grey-bg {
@@ -47,8 +47,13 @@ p {
   line-height: 27px;
 }
 
-.security-text {
+.security-text div {
   padding-left: 18px !important;
+  font-size: 16px !important; 
+}
+
+.security-border {
+  border-left: 3px solid #84B816;
 }
 
 .custom-image img {
@@ -62,4 +67,13 @@ p {
   line-height: 55px;
   font-weight: lighter;
   color: #5A5A5A;
+}
+
+.info-header {
+  padding: 0 40px;
+}
+
+.info-body {
+  padding: 0 40px;
+  font-size: 16px;
 }

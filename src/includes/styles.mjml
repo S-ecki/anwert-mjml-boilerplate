@@ -3,7 +3,8 @@
 <mj-attributes>
   <mj-class name="body" background-color="#FFF" />
   <mj-class name="hero" background-color="#005AAB" full-width="full-width" />
-  <mj-class name="footer" background-color="#3E3E3E" padding="50px 60px" />
+  <mj-class name="footer" background-color="#3E3E3E" padding="50px" />
+  <mj-class name="footer-text" color="white" font-size="14px" />
   <mj-class name="cta-btn" background-color="#84B815" border-radius="8px" color="#FFF" font-size="16px" font-weight="bold"/>
 
   <mj-class name="section" padding=" 0px 40px" />

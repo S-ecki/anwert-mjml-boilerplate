@@ -11,21 +11,15 @@
   </mj-head>
 
   <mj-body background-color="#fff" >
-    
-    <mj-hero
-      background-height="400px"
-      height="400px"
-      background-width="600px"
-      background-url= "assets/images/beach-header.png">
-      <mj-text
-        padding="40px 40px"
-        color="white"
-        align="right"
-        font-size="45px"
-        font-weight="100">
-        easy<b>bank</b>
-      </mj-text>
-    </mj-hero>
+
+  <mj-section>
+    <mj-column>
+      <mj-image
+        height="400px"
+        width="600px"
+        src= "assets/images/header-pic-with-logo.jpg"/>
+    </mj-column>
+  </mj-section>
 
     <!-- Greetings Section -->
     <mj-section mj-class="section" padding-top="40px">
@@ -67,14 +61,14 @@
         <mj-text>
             „Machen Kurse Nachrichten oder machen Nachrichten Kurse?“ Diese und viele andere Börse-Weisheiten gaben Markus Koch und Experten der DJE Kapital AG bei unserem Event am 23.6. in Wien zum Besten. Im Anschluss fand noch eine spannende Podiumsdiskussion statt.
         </mj-text>
-        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left" padding-top="40px">
-           <mj-image width="30px" src="https://191n.mj.am/img/191n/3s/x0l.png" /> 
+        <mj-button mj-class="cta-btn" href="" align="left" padding-top="40px">
            Zum Video
         </mj-button>
       </mj-column>
-      <mj-column width="41%">
+      <mj-column width="41%" background-color="blue">
         <mj-image
-          src="assets/images/anwert-mindnode-project.png"
+          container-background-color="#DCECF2"
+          src="assets/images/markus-koch.png"
           alt="" />
       </mj-column>
     </mj-section>
@@ -83,7 +77,7 @@
     <mj-section mj-class="section-right" padding-top="120px" padding-bottom="90px">
       <mj-column width="41%">
         <mj-image
-          src="assets/images/anwert-mindnode-project.png"
+          src="assets/images/easybank-mobile-big.jpg"
           alt="" />
       </mj-column>
       <mj-column width="59%" padding-left="47px">
@@ -93,7 +87,7 @@
           </h3>
             Mit dem gratis Börsen-Führerschein die wichtigsten Fakten des Börsenhandels lernen. Wie funktioniert ein Wertpapierdepot? Welche Eigenschaften haben Fonds, ETFs und andere Wertpapiere? Wachsen Sie mit uns und schlagen Sie ihre persönliche Fahrtrichtung zum Online-Traden ein!
         </mj-text>
-        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left" background-color="#F88181" padding-top="50px">
+        <mj-button mj-class="cta-btn" href="" align="left" background-color="#F88181" padding-top="50px">
           Jetzt starten!
         </mj-button>
       </mj-column>
@@ -116,7 +110,7 @@
     <mj-section>
       <mj-column width="30%">
         <mj-image
-            src="assets/images/vendor.png"
+            src="assets/images/investorella.png"
             alt="" />
       </mj-column>
       <mj-column width="70%">
@@ -131,7 +125,7 @@
         <mj-section>
       <mj-column width="30%">
         <mj-image
-            src="assets/images/vendor.png"
+            src="assets/images/stefan-risse.png"
             alt="" />
       </mj-column>
       <mj-column width="70%">
@@ -146,7 +140,7 @@
         <mj-section>
       <mj-column width="30%">
         <mj-image
-            src="assets/images/vendor.png"
+            src="assets/images/robert-halver.png"
             alt="" />
       </mj-column>
       <mj-column width="70%">
@@ -160,48 +154,61 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left" width="190px" height="50px">
+        <mj-button mj-class="cta-btn" href="" align="left" width="190px" height="50px">
           Zu den Beiträgen
         </mj-button>
-        <mj-spacer/ height="50px">
       </mj-column>
     </mj-section>
     </mj-wrapper>
 
-    <!-- Info Section -->
-    <mj-section padding-top="63px">
-      <mj-column width="48%" padding-bottom="30px" css-class="green-bg">
+    <!-- Info Section split into 2 parts to have correct heights
+    (top padding on the right picture is less as the picture itself is bigger bc of the sticker)  -->
+
+    <!-- Info Section Images -->
+    <mj-section >
+      <mj-column width="48%" padding-top="65px">
         <mj-image
-            src="assets/images/anwert-mindnode-project.png"
+            src="assets/images/easybank-mobile.jpg"
             alt="" />
-        <mj-text>
+      </mj-column>
+      <mj-column width="4%">
+        <mj-spacer ></mj-spacer>
+      </mj-column>
+      <mj-column width="48%" padding-top="30px">
+        <mj-image
+            src="assets/images/beach-with-sticker.png"
+            alt="" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Info Section Text -->
+    <mj-section>
+      <mj-column width="48%" padding="0 40px 40px 30px" css-class="green-bg">
+        <mj-text >
           <h3>
           	Der easybank <br/>Börsenführerschein.
           </h3>
           <p>
-            Mit dem gratis Börsen-<br/>Führerschein die wichtigsten<br/>Fakten des Börsenhandels<br/>lernen.
+            Mit dem gratis Börsen-<br/>Führerschein die wichtigsten Fakten des Börsenhandels lernen.
           </p>
         </mj-text>
-        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left">
+        <mj-button mj-class="cta-btn" href="" align="left">
         Jetzt starten!
         </mj-button>
       </mj-column>
       <mj-column width="4%">
         <mj-spacer ></mj-spacer>
       </mj-column>
-      <mj-column width="48%" padding-bottom="30px" css-class="blue-bg">
-        <mj-image
-            src="assets/images/anwert-mindnode-project.png"
-            alt="" />
+      <mj-column width="48%" padding="0 40px 40px 30px" css-class="blue-bg">
         <mj-text>
           <h3>
           	Jetzt in den Sommer-<br/>urlaub starten.
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo.
           </p>
         </mj-text>
-        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/" align="left">
+        <mj-button mj-class="cta-btn" href="" align="left">
           Mehr erfahren
         </mj-button>
       </mj-column>
@@ -238,12 +245,10 @@
 
     <!-- Security Section -->
     <mj-section mj-class="section" padding-top="60px" css-class="grey-bg">
-      <mj-column width="10%">
-        <mj-text>
-          <h3>
-            ICON
-          </h3>
-        </mj-text>
+      <mj-column width="10%" vertical-align="bottom">
+        <mj-image
+        src="assets/images/attention-icon.svg"
+        />
       </mj-column>
       <mj-column width="90%">
         <mj-text>
@@ -253,48 +258,40 @@
         </mj-text>
       </mj-column>
 
-      <mj-column width="100%" border-left="3px solid #84B816">
+      <mj-column width="100%" css-class="security-border">
         <mj-text css-class="security-text">
             easybank würde niemals per E-Mail nach sensiblen persönlichen Daten fragen. Dazu zählen insbesondere Verfügernummer, PIN, Kreditkartendaten, PIN-Code, Passwort und TAN.
         </mj-text>
       </mj-column>
 
-      <mj-column width=100%>
-        <mj-spacer></mj-spacer>
-      </mj-column>
-
-      <mj-column width="100%" border-left="3px solid #84B816">
-        <mj-text padding-left="18px">
+      @@include('./partials/_security-spacer.mjml')
+      
+      <mj-column width="100%" css-class="security-border">
+        <mj-text css-class="security-text">
             Geben Sie Ihre persönlichen Daten oder Zahlungsdaten nur auf verschlüsselten Seiten ein. Diese erkennen Sie am Schloss Symbol oder daran, dass in der Adressleiste des Browsers „https://…“ angezeigt wird.
         </mj-text>
       </mj-column>
 
-      <mj-column width=100%>
-        <mj-spacer></mj-spacer>
-      </mj-column>
+      @@include('./partials/_security-spacer.mjml')
 
-      <mj-column width="100%" border-left="3px solid #84B816">
-        <mj-text padding-left="18px">
+      <mj-column width="100%" css-class="security-border">
+        <mj-text css-class="security-text">
             Rufen Sie Links über den Browser auf, wenn Sie unsicher sein sollten, ob der E-Mail-Absender vertrauenswürdig ist. 
         </mj-text>
       </mj-column>
 
-      <mj-column width=100%>
-        <mj-spacer></mj-spacer>
-      </mj-column>
+      @@include('./partials/_security-spacer.mjml')
 
-      <mj-column width="100%" border-left="3px solid #84B816">
-        <mj-text padding-left="18px">
+      <mj-column width="100%" css-class="security-border">
+        <mj-text css-class="security-text">
             Wir kontaktieren Sie im Missbrauchsverdacht. Halten Sie Ihre Kontaktdaten bei uns immer aktuell.
         </mj-text>
       </mj-column>
 
-      <mj-column width=100%>
-        <mj-spacer></mj-spacer>
-      </mj-column>
+      @@include('./partials/_security-spacer.mjml')
 
       <mj-column width="100%" padding-bottom="65px" padding-top="15px">
-        <mj-text font-weight="700">
+        <mj-text font-weight="700" font-size="16px">
           Mehr Tipps für Ihre Sicherheit und aktuelle Phishing-Warnungen finden Sie auf unserem Sicherheitsportal https://www.easybank.at/sicher 
         </mj-text>
       </mj-column>
@@ -304,7 +301,7 @@
     <mj-wrapper mj-class="footer">
     <mj-section>
       <mj-column width="60%">
-        <mj-text>
+        <mj-text mj-class="footer-text">
           <p>
             <b>Kontakt:</b><br/>
             easybank Service Center<br/>
@@ -314,7 +311,7 @@
         </mj-text>
       </mj-column>  
       <mj-column width="40%">
-        <mj-text>
+        <mj-text mj-class="footer-text">
           Abmelden<br/>
           Impressum<br/>
           Geschäftsbedingungen<br/>
@@ -326,8 +323,8 @@
 
     <mj-section>  
       <mj-column width="100%">
-        <mj-text>
-          <p class="footer-anschrift">
+        <mj-text mj-class="footer-text">
+          <p>
              BAWAG P.S.K. Bank für Arbeit und Wirtschaft und <br/>
              Österreichische Postsparkasse Aktiengesellschaft <br/>
              Handelsgericht Wien  |  FN205340x 
