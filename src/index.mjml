@@ -2,10 +2,11 @@
   <mj-head>
     @@include('./includes/styles.mjml')
 
-    <mj-title>TODO</mj-title>
-    <mj-preview>TODO</mj-preview>
+    <mj-title>easybank</mj-title>
+    <mj-preview>easybank</mj-preview>
 
     <mj-raw>
+      <!-- TODO: Logo easy bank -->
       <link rel="shortcut icon" type="image/x-icon" href="https://anwert.io/favicon.ico">
     </mj-raw>
   </mj-head>
@@ -17,7 +18,8 @@
       <mj-image
         height="400px"
         width="600px"
-        src= "assets/images/header-pic-with-logo.jpg"/>
+        src= "assets/images/header-pic-with-logo.jpg"
+        alt="white sand and blue sea with 4 beach chairs and 2 parasols"/>
     </mj-column>
   </mj-section>
 
@@ -35,7 +37,7 @@
            Wir wünschen Ihnen viel Lesevergnügen,<br/>Ihr easybank Service Center
           </h4>
         </mj-text>
-        <mj-button mj-class="cta-btn" align="left" href="" target="_blank">
+        <mj-button mj-class="cta-btn" href="" target="_blank">
           Jetzt starten!
         </mj-button>
       </mj-column>
@@ -63,7 +65,7 @@
             „Machen Kurse Nachrichten oder machen Nachrichten Kurse?“ Diese und viele andere Börse-Weisheiten gaben Markus Koch und Experten der DJE Kapital AG bei unserem Event am 23.6. in Wien zum Besten. Im Anschluss fand noch eine spannende Podiumsdiskussion statt.
           </p>
         </mj-text>
-        <mj-button mj-class="cta-btn" href="" align="left" padding-top="40px">
+        <mj-button mj-class="cta-btn" href="" padding-top="40px">
            Zum Video
         </mj-button>
       </mj-column>
@@ -73,7 +75,7 @@
           src="assets/images/markus-koch.png"
           width="248px"
           height="291px"
-          alt="" />
+          alt="portrait of Markus Koch with light blue background" />
       </mj-column>
     </mj-section>
 
@@ -84,7 +86,7 @@
           src="assets/images/easybank-mobile-big.jpg"
           width="248px"
           height="248px"
-          alt="" />
+          alt="Mobile Phone with easy bank app open" />
       </mj-column>
       <mj-column width="59%" padding-left="47px">
         <mj-text>
@@ -95,7 +97,7 @@
             Mit dem gratis Börsen-Führerschein die wichtigsten Fakten des Börsenhandels lernen. Wie funktioniert ein Wertpapierdepot? Welche Eigenschaften haben Fonds, ETFs und andere Wertpapiere? Wachsen Sie mit uns und schlagen Sie ihre persönliche Fahrtrichtung zum Online-Traden ein!
           </p>
         </mj-text>
-        <mj-button mj-class="cta-btn" href="" align="left" background-color="#F88181" padding-top="50px">
+        <mj-button mj-class="cta-btn" href="" padding-top="50px" background-color="#F88181">
           Jetzt starten!
         </mj-button>
       </mj-column>
@@ -121,8 +123,8 @@
       <mj-column mj-class="expert-pic">
         <mj-image
             src="assets/images/investorella.png"
-         mj-class="expert-pic-size"
-            alt="" />
+            mj-class="expert-pic-size"
+            alt="Picture of Larissa Kravitz aka. Investorella" />
       </mj-column>
       <mj-column mj-class="expert-text">
         <mj-text>
@@ -138,7 +140,7 @@
         <mj-image
             src="assets/images/stefan-risse.png"
             mj-class="expert-pic-size"
-            alt="" />
+            alt="Picture of Stefan Riße" />
       </mj-column>
       <mj-column mj-class="expert-text">
         <mj-text>
@@ -154,7 +156,7 @@
         <mj-image
             src="assets/images/robert-halver.png"
             mj-class="expert-pic-size"
-            alt="" />
+            alt="Picture of Robert Halver" />
       </mj-column>
       <mj-column mj-class="expert-text">
         <mj-text>
@@ -167,7 +169,7 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-button mj-class="cta-btn" href="" align="left" width="190px" height="50px" padding-top="50px">
+        <mj-button mj-class="cta-btn" href="" width="190px" height="50px" padding-top="50px">
           Zu den Beiträgen
         </mj-button>
       </mj-column>
@@ -182,7 +184,7 @@
       <mj-column mj-class="info-column" padding-top="65px">
         <mj-image
             src="assets/images/easybank-mobile.jpg"
-            alt="" />
+            alt="Mobile Phone with easy bank app open" />
       </mj-column>
 
       @@include('./partials/_info-spacer.mjml')
@@ -190,7 +192,7 @@
       <mj-column mj-class="info-column" padding-top="30px">
         <mj-image
             src="assets/images/beach-with-sticker.png"
-            alt="" />
+            alt="Mountain of sand with sunglasses on top" />
       </mj-column>
     </mj-section>
 
@@ -212,7 +214,7 @@
 
       @@include('./partials/_info-spacer.mjml')
 
-      <mj-column mj-class="info-column info-column-text"css-class="blue-bg">
+      <mj-column mj-class="info-column info-column-text" css-class="blue-bg">
         <mj-text>
           <h4 class="info-header">
           	Jetzt in den Sommer-<br/>urlaub starten.
@@ -236,7 +238,8 @@
           src="assets/images/palm_with_sticker.png"
           css-class="custom-image"
           height="330px"
-          width="520px"/>
+          width="520px"
+          alt="Picture of palm trees with sky in the background" />
       </mj-column>
       <mj-column width="100%" padding-top="70px" padding-bottom="45px" css-class="green-bg">
         <mj-text align="center">
@@ -261,7 +264,7 @@
         src="assets/images/attention-icon.svg"
         width="41px"
         height="41px"
-        />
+        alt="Icon with triangle and exclamation mark" />
       </mj-column>
       <mj-column width="90%" padding-left="25px">
         <mj-text>
@@ -322,7 +325,7 @@
             <b>Kontakt:</b><br/>
             easybank Service Center<br/>
             Wiedner Gürtel 11,  1100 Wien<br/>
-            <a>www.easybank.at</a>
+            <a href="https://www.easybank.at/easybank">www.easybank.at</a>
           </p>
         </mj-text>
       </mj-column>  
