@@ -15,10 +15,6 @@ h2 {
   line-height: 39px
 }
 
-h3 {
-  font-size: 18px
-}
-
 h4 {
   font-size: 20px;
   line-height: 27px;
@@ -69,22 +65,9 @@ p {
   font-size: 16px !important; 
 }
 
-.security-border {
-  border-left: 3px solid #84B816;
-}
-
 .custom-image img {
   position: relative !important; 
   margin-bottom: -74px !important;
-}
-
-.info-header {
-  padding: 0 40px;
-}
-
-.info-body {
-  padding: 0 40px;
-  font-size: 16px;
 }
 
 .image-cta-text{
@@ -95,4 +78,8 @@ p {
   color: white;
   font-size: 14px;
   line-height: 18px;
+}
+
+.security-border {
+  border-left: 3px solid #84B816;
 }
