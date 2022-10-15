@@ -25,15 +25,15 @@
     <mj-section mj-class="section" padding-top="40px">
       <mj-column>
         <mj-text>
-          <p>
+          <h4>
             Sehr geehrter easybanker,
-          </p>
-          <p>
+          </h4>
+          <h4>
            Sommerzeit ist Urlaubszeit. Wir laden Sie ein, diese Monate entspannt zu genießen. Lehnen Sie sich zurück, lesen Sie in diesem Newsletter alles über unsere Aktionen im Juli, erfahren, warum sich der Börsen-Führerschein auszahlt und wie der bekannte Börsenjournalist Markus Koch in Wien begeistert hat. 
-          </p>
-          <p>
+          </h4>
+          <h4>
            Wir wünschen Ihnen viel Lesevergnügen,<br/>Ihr easybank Service Center
-          </p>
+          </h4>
         </mj-text>
         <mj-button mj-class="cta-btn" align="left" href="" target="_blank">
           Jetzt starten!
@@ -48,9 +48,9 @@
           <h2 class="green">
             Die Highlights im Juni
           </h2>	
-          <p class="subtitle">
+          <h4>
             Börsenexperte Markus Koch <br/>begeisterte in Wien.
-          </p>
+          </h4>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -59,7 +59,9 @@
     <mj-section mj-class="section-left">
       <mj-column padding-right="45px" width="59%">
         <mj-text>
+          <p>
             „Machen Kurse Nachrichten oder machen Nachrichten Kurse?“ Diese und viele andere Börse-Weisheiten gaben Markus Koch und Experten der DJE Kapital AG bei unserem Event am 23.6. in Wien zum Besten. Im Anschluss fand noch eine spannende Podiumsdiskussion statt.
+          </p>
         </mj-text>
         <mj-button mj-class="cta-btn" href="" align="left" padding-top="40px">
            Zum Video
@@ -69,23 +71,29 @@
         <mj-image
           container-background-color="#DCECF2"
           src="assets/images/markus-koch.png"
+          width="248px"
+          height="291px"
           alt="" />
       </mj-column>
     </mj-section>
 
     <!-- Highlights Section Body 2-->
-    <mj-section mj-class="section-right" padding-top="120px" padding-bottom="90px">
-      <mj-column width="41%">
+    <mj-section mj-class="section-right" padding-top="100px" padding-bottom="90px">
+      <mj-column width="41%" padding-top="10px">
         <mj-image
           src="assets/images/easybank-mobile-big.jpg"
+          width="248px"
+          height="248px"
           alt="" />
       </mj-column>
       <mj-column width="59%" padding-left="47px">
         <mj-text>
-          <h3>
+          <h4 class="no-margin">
             Der easybank Börsenführerschein.
-          </h3>
+          </h4>
+          <p>
             Mit dem gratis Börsen-Führerschein die wichtigsten Fakten des Börsenhandels lernen. Wie funktioniert ein Wertpapierdepot? Welche Eigenschaften haben Fonds, ETFs und andere Wertpapiere? Wachsen Sie mit uns und schlagen Sie ihre persönliche Fahrtrichtung zum Online-Traden ein!
+          </p>
         </mj-text>
         <mj-button mj-class="cta-btn" href="" align="left" background-color="#F88181" padding-top="50px">
           Jetzt starten!
@@ -94,59 +102,64 @@
     </mj-section>
 
     <!-- Expertenkommentare-->
+    <!-- Text -->
     <mj-wrapper padding="60px 70px 70px 70px" css-class="blue-bg">
     <mj-section>
       <mj-column>
         <mj-text>
-          <h3>
+          <h4 class="no-margin">
             Expertenkommentare
-          </h3>
+          </h4>
           <p>
             Lernen Sie, das Börsengeschehen noch besser zu verstehen und profitieren Sie von aktuellen Beiträgen unserer kompetenten Finanzexperten, die komplexe Zusammenhänge verständlich auf den Punkt bringen!
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column width="30%">
+    <!-- People + Button -->
+    <mj-section padding-top="30px" mj-class="expert-row">
+      <mj-column mj-class="expert-pic">
         <mj-image
             src="assets/images/investorella.png"
+         mj-class="expert-pic-size"
             alt="" />
       </mj-column>
-      <mj-column width="70%">
+      <mj-column mj-class="expert-text">
         <mj-text>
-          <b>Larissa Kravitz | Investorella</b>
           <p>
+          <b>Larissa Kravitz | Investorella</b><br/>
             Influencerin &amp Buch-Autorin („Money, Honey!“), Unternehmerin
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
-        <mj-section>
-      <mj-column width="30%">
+    <mj-section mj-class="expert-row">
+      <mj-column mj-class="expert-pic">
         <mj-image
             src="assets/images/stefan-risse.png"
+            mj-class="expert-pic-size"
             alt="" />
       </mj-column>
-      <mj-column width="70%">
+      <mj-column mj-class="expert-text">
         <mj-text>
-          <b>Stefan Riße</b>
           <p>
+          <b>Stefan Riße</b><br/>
             Kapitalmarktstratege
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
-        <mj-section>
-      <mj-column width="30%">
+    <mj-section mj-class="expert-row">
+      <mj-column mj-class="expert-pic">
         <mj-image
             src="assets/images/robert-halver.png"
+            mj-class="expert-pic-size"
             alt="" />
       </mj-column>
-      <mj-column width="70%">
+      <mj-column mj-class="expert-text">
         <mj-text>
-          <b>Robert Halver</b>
           <p>
+          <b>Robert Halver</b><br/>
             Finanzexperte, Leiter Kapitalmarktanalyse der Baader Bank AG, Frankfurt/Main
           </p>
         </mj-text>
@@ -154,27 +167,27 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-button mj-class="cta-btn" href="" align="left" width="190px" height="50px">
+        <mj-button mj-class="cta-btn" href="" align="left" width="190px" height="50px" padding-top="50px">
           Zu den Beiträgen
         </mj-button>
       </mj-column>
     </mj-section>
     </mj-wrapper>
 
-    <!-- Info Section split into 2 parts to have correct heights
-    (top padding on the right picture is less as the picture itself is bigger bc of the sticker)  -->
+    <!-- Info Section split into 2 parts - pictures and texts - to have correct heights
+    top padding on the right picture is less as the picture itself is higher (the sticker is part of the png  -->
 
     <!-- Info Section Images -->
     <mj-section >
-      <mj-column width="48%" padding-top="65px">
+      <mj-column mj-class="info-column" padding-top="65px">
         <mj-image
             src="assets/images/easybank-mobile.jpg"
             alt="" />
       </mj-column>
-      <mj-column width="4%">
-        <mj-spacer ></mj-spacer>
-      </mj-column>
-      <mj-column width="48%" padding-top="30px">
+
+      @@include('./partials/_info-spacer.mjml')
+
+      <mj-column mj-class="info-column" padding-top="30px">
         <mj-image
             src="assets/images/beach-with-sticker.png"
             alt="" />
@@ -183,32 +196,32 @@
 
     <!-- Info Section Text -->
     <mj-section>
-      <mj-column width="48%" padding="0 40px 40px 30px" css-class="green-bg">
-        <mj-text >
-          <h3>
+      <mj-column mj-class="info-column info-column-text" css-class="green-bg">
+        <mj-text>
+          <h4 class="info-header">
           	Der easybank <br/>Börsenführerschein.
-          </h3>
+          </h4>
           <p>
             Mit dem gratis Börsen-<br/>Führerschein die wichtigsten Fakten des Börsenhandels lernen.
           </p>
         </mj-text>
-        <mj-button mj-class="cta-btn" href="" align="left">
+        <mj-button mj-class="cta-btn info-btn" href="">
         Jetzt starten!
         </mj-button>
       </mj-column>
-      <mj-column width="4%">
-        <mj-spacer ></mj-spacer>
-      </mj-column>
-      <mj-column width="48%" padding="0 40px 40px 30px" css-class="blue-bg">
+
+      @@include('./partials/_info-spacer.mjml')
+
+      <mj-column mj-class="info-column info-column-text"css-class="blue-bg">
         <mj-text>
-          <h3>
+          <h4 class="info-header">
           	Jetzt in den Sommer-<br/>urlaub starten.
-          </h3>
+          </h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           </p>
         </mj-text>
-        <mj-button mj-class="cta-btn" href="" align="left">
+        <mj-button mj-class="cta-btn info-btn" href="">
           Mehr erfahren
         </mj-button>
       </mj-column>
@@ -217,25 +230,23 @@
 
 
     <!-- Image CTA Section -->
-    <mj-section padding-top="75px" padding-bottom="270px">
+    <mj-section padding-top="70px" padding-bottom="270px">
       <mj-column width="100%">
         <mj-image
           src="assets/images/palm_with_sticker.png"
           css-class="custom-image"
           height="330px"
-          width="520px"
-          container-background-color="white"
-          />
+          width="520px"/>
       </mj-column>
-      <mj-column width="100%" padding-top="75px" padding-bottom="45px" css-class="green-bg">
+      <mj-column width="100%" padding-top="70px" padding-bottom="45px" css-class="green-bg">
         <mj-text align="center">
-          <h1 class="cta-header">
+          <h1>
             Jetzt in den Sommerurlaub starten.
           </h1>
-          <p>
+          <p class="image-cta-text">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.
         </mj-text>
-        <mj-button mj-class="cta-btn" align="center">
+        <mj-button mj-class="cta-btn" align="center" padding-top="25px">
           Mehr erfahren
         </mj-button>
       </mj-column>
@@ -245,22 +256,26 @@
 
     <!-- Security Section -->
     <mj-section mj-class="section" padding-top="60px" css-class="grey-bg">
-      <mj-column width="10%" vertical-align="bottom">
+      <mj-column width="10%" vertical-align="bottom" padding-bottom="30px">
         <mj-image
         src="assets/images/attention-icon.svg"
+        width="41px"
+        height="41px"
         />
       </mj-column>
-      <mj-column width="90%">
+      <mj-column width="90%" padding-left="25px">
         <mj-text>
-          <h3>
-            Ihre Sicherheit ist uns wichtig - Schützen Sie sich vor Phishing-E-Mails
-          </h3>
+          <h4 class="no-margin">
+            Ihre Sicherheit ist uns wichtig -<br/> Schützen Sie sich vor Phishing-E-Mails
+          </h4>
         </mj-text>
       </mj-column>
 
       <mj-column width="100%" css-class="security-border">
         <mj-text css-class="security-text">
+           <p>
             easybank würde niemals per E-Mail nach sensiblen persönlichen Daten fragen. Dazu zählen insbesondere Verfügernummer, PIN, Kreditkartendaten, PIN-Code, Passwort und TAN.
+           </p>
         </mj-text>
       </mj-column>
 
@@ -288,11 +303,12 @@
         </mj-text>
       </mj-column>
 
-      @@include('./partials/_security-spacer.mjml')
-
-      <mj-column width="100%" padding-bottom="65px" padding-top="15px">
-        <mj-text font-weight="700" font-size="16px">
-          Mehr Tipps für Ihre Sicherheit und aktuelle Phishing-Warnungen finden Sie auf unserem Sicherheitsportal https://www.easybank.at/sicher 
+      <mj-column width="100%" padding-bottom="65px" padding-top="35px">
+      <!-- TODO: Font Weight "DEMI" (?) -->
+        <mj-text>
+          <p>
+            Mehr Tipps für Ihre Sicherheit und aktuelle Phishing-Warnungen finden Sie auf unserem Sicherheitsportal https://www.easybank.at/sicher 
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -300,9 +316,9 @@
 
     <mj-wrapper mj-class="footer">
     <mj-section>
-      <mj-column width="60%">
-        <mj-text mj-class="footer-text">
-          <p>
+      <mj-column width="66%">
+        <mj-text>
+          <p class="footer-text">
             <b>Kontakt:</b><br/>
             easybank Service Center<br/>
             Wiedner Gürtel 11,  1100 Wien<br/>
@@ -310,21 +326,23 @@
           </p>
         </mj-text>
       </mj-column>  
-      <mj-column width="40%">
-        <mj-text mj-class="footer-text">
-          Abmelden<br/>
-          Impressum<br/>
-          Geschäftsbedingungen<br/>
-          Datenschutz<br/>
-          Nutzungsbedingungen
+      <mj-column width="34%">
+        <mj-text>
+          <p class="footer-text">
+            Abmelden<br/>
+            Impressum<br/>
+            Geschäftsbedingungen<br/>
+            Datenschutz<br/>
+            Nutzungsbedingungen
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section>  
+    <mj-section padding-top="60px">  
       <mj-column width="100%">
-        <mj-text mj-class="footer-text">
-          <p>
+        <mj-text>
+          <p class="footer-text">
              BAWAG P.S.K. Bank für Arbeit und Wirtschaft und <br/>
              Österreichische Postsparkasse Aktiengesellschaft <br/>
              Handelsgericht Wien  |  FN205340x 

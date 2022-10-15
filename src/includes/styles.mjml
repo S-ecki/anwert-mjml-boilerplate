@@ -1,19 +1,25 @@
 <mj-font name="DinPro" href="assets/fonts/dinpro-regular.woff" />
 
 <mj-attributes>
-  <mj-class name="body" background-color="#FFF" />
-  <mj-class name="hero" background-color="#005AAB" full-width="full-width" />
-  <mj-class name="footer" background-color="#3E3E3E" padding="50px" />
-  <mj-class name="footer-text" color="white" font-size="14px" />
-  <mj-class name="cta-btn" background-color="#84B815" border-radius="8px" color="#FFF" font-size="16px" font-weight="bold"/>
-
+  <mj-button width="170px" height="45px"/>
+  <mj-class name="cta-btn" background-color="#84B815" border-radius="8px" color="#FFF" font-size="16px" font-weight="bold" />
   <mj-class name="section" padding=" 0px 40px" />
+
   <mj-class name="section-left" padding-left="40px" />
   <mj-class name="section-right" padding-right="40px" />
 
-  <mj-button width="170px" height="45px"/>
+  <mj-class name="expert-row" full-width="full-width" padding-top="10px" vertical-align="middle" />
+  <mj-class name="expert-pic" width="20%" />
+  <mj-class name="expert-pic-size" height="85px" width="85px" />
+  <mj-class name="expert-text" width="80%" padding-left="28px" />
 
-  <mj-all font-family="DinPro, Helvetica, Arial, sans-serif" font-size="18px"line-height="24px" color="#000" padding="0" margin="0" />
+  <mj-class name="info-column" width="48%" />
+  <mj-class name="info-column-text" padding="0 40px 40px 30px" />
+  <mj-class name="info-btn" padding-top="28px" align="left" />
+  
+  <mj-class name="footer" background-color="#3E3E3E" padding="50px" />
+
+  <mj-all font-family="DinPro, Helvetica, Arial, sans-serif" font-size="16px"line-height="24px" color="#000" padding="0" margin="0" />
 </mj-attributes>
 
 
