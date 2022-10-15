@@ -8,11 +8,13 @@ h1 {
   padding: 0 80px;
   font-weight: lighter;
   color: #5A5A5A;
+  margin: 40px 0 20px
 }
 
 h2 {
   font-size: 30px;
-  line-height: 39px
+  line-height: 39px;
+  font-weight: 500;
 }
 
 h4 {

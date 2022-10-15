@@ -241,7 +241,7 @@
           width="520px"
           alt="Picture of palm trees with sky in the background" />
       </mj-column>
-      <mj-column width="100%" padding-top="70px" padding-bottom="45px" css-class="green-bg">
+      <mj-column width="100%" padding-top="60px" padding-bottom="45px" css-class="green-bg">
         <mj-text align="center">
           <h1>
             Jetzt in den Sommerurlaub starten.
