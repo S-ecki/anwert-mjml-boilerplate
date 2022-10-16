@@ -8,3 +8,8 @@
     display: none;
   }
 }
+
+@font-face {
+   font-family: DinPro;
+   src: url(assets/fonts/din-pro.ttf);
+}

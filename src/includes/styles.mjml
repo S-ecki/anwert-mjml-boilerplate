@@ -1,4 +1,4 @@
-<mj-font name="DinPro" href="assets/fonts/dinpro-regular.woff" />
+<mj-font name="DinPro" href="assets/fonts/din-pro.ttf" />
 
 <mj-attributes>
   <mj-button width="170px" height="45px"/>
