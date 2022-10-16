@@ -127,7 +127,7 @@
             alt="Picture of Larissa Kravitz aka. Investorella" />
       </mj-column>
       <mj-column mj-class="expert-text">
-        <mj-text>
+        <mj-text padding-top="5px">
           <p>
           <b>Larissa Kravitz | Investorella</b><br/>
             Influencerin &amp Buch-Autorin („Money, Honey!“), Unternehmerin
@@ -143,7 +143,7 @@
             alt="Picture of Stefan Riße" />
       </mj-column>
       <mj-column mj-class="expert-text">
-        <mj-text>
+        <mj-text padding-top="15px">
           <p>
           <b>Stefan Riße</b><br/>
             Kapitalmarktstratege
@@ -259,7 +259,7 @@
 
     <!-- Security Section -->
     <mj-section mj-class="section" padding-top="60px" css-class="grey-bg">
-      <mj-column width="10%" vertical-align="bottom" padding-bottom="30px">
+      <mj-column width="10%" vertical-align="bottom" padding-bottom="15px">
         <mj-image
         src="assets/images/attention-icon.svg"
         width="41px"
@@ -272,6 +272,10 @@
             Ihre Sicherheit ist uns wichtig -<br/> Schützen Sie sich vor Phishing-E-Mails
           </h4>
         </mj-text>
+      </mj-column>
+
+      <mj-column width="100%">
+        <mj-spacer height="15px"></mj-spacer>
       </mj-column>
 
       <mj-column width="100%" css-class="security-border">
@@ -307,10 +311,9 @@
       </mj-column>
 
       <mj-column width="100%" padding-bottom="65px" padding-top="35px">
-      <!-- TODO: Font Weight "DEMI" (?) -->
         <mj-text>
-          <p>
-            Mehr Tipps für Ihre Sicherheit und aktuelle Phishing-Warnungen finden Sie auf unserem Sicherheitsportal https://www.easybank.at/sicher 
+          <p class="bold">
+            Mehr Tipps für Ihre Sicherheit und aktuelle Phishing-Warnungen finden Sie auf unserem Sicherheitsportal <a href="https://www.easybank.at/sicher" class="black">https://www.easybank.at/sicher</a> 
           </p>
         </mj-text>
       </mj-column>
