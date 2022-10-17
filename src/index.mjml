@@ -44,7 +44,7 @@
     </mj-section>
 
     <!-- Highlights Section Headers-->
-    <mj-section mj-class="section" padding-top="40px">
+    <mj-section mj-class="section" padding-top="20px">
       <mj-column>
         <mj-text>
           <h2 class="green">
@@ -59,7 +59,7 @@
 
     <!-- Highlights Section Body 1-->
     <mj-section mj-class="section-left">
-      <mj-column padding-right="45px" width="59%">
+      <mj-column padding-right="45px" width="55%">
         <mj-text>
           <p>
             „Machen Kurse Nachrichten oder machen Nachrichten Kurse?“ Diese und viele andere Börse-Weisheiten gaben Markus Koch und Experten der DJE Kapital AG bei unserem Event am 23.6. in Wien zum Besten. Im Anschluss fand noch eine spannende Podiumsdiskussion statt.
@@ -69,7 +69,7 @@
            Zum Video
         </mj-button>
       </mj-column>
-      <mj-column width="41%" background-color="blue">
+      <mj-column width="45%" background-color="blue">
         <mj-image
           container-background-color="#DCECF2"
           src="assets/images/markus-koch.png"
