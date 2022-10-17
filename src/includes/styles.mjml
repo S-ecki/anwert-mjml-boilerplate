@@ -2,11 +2,17 @@
 
 <mj-attributes>
   <mj-button width="170px" height="45px"/>
+  <mj-section background-color="white"/>
+
   <mj-class name="cta-btn" background-color="#84B815" border-radius="5px" color="#FFF" font-size="16px" font-weight="bold" align="left"/>
 
   <mj-class name="section" padding=" 0px 40px" />
   <mj-class name="section-left" padding-left="40px" />
   <mj-class name="section-right" padding-right="40px" />
+  
+  <mj-class name="bg-blue" background-color="#DCECF2" />
+  <mj-class name="bg-grey" background-color="#DADADA" />
+  <mj-class name="bg-black" background-color="#3E3E3E" />
 
   <mj-class name="expert-row" full-width="full-width" padding-top="10px" vertical-align="middle" />
   <mj-class name="expert-pic" width="20%" />

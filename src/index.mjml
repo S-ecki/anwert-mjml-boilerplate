@@ -11,7 +11,7 @@
     </mj-raw>
   </mj-head>
 
-  <mj-body background-color="#fff" >
+  <mj-body background-color="#EEEEEE" >
 
   <mj-section>
     <mj-column>
@@ -66,7 +66,7 @@
           </p>
         </mj-text>
         <mj-button mj-class="cta-btn" href="" padding-top="40px">
-           Zum Video
+          &#9658; &nbsp;Zum Video
         </mj-button>
       </mj-column>
       <mj-column width="45%" background-color="blue">
@@ -106,7 +106,7 @@
     <!-- Expertenkommentare-->
     <!-- Text -->
     <mj-wrapper padding="60px 70px 70px 70px" css-class="blue-bg">
-    <mj-section>
+    <mj-section mj-class="bg-blue">
       <mj-column>
         <mj-text>
           <h4 class="no-margin">
@@ -119,7 +119,7 @@
       </mj-column>
     </mj-section>
     <!-- People + Button -->
-    <mj-section padding-top="30px" mj-class="expert-row">
+    <mj-section padding-top="30px" mj-class="expert-row bg-blue">
       <mj-column mj-class="expert-pic">
         <mj-image
             src="assets/images/investorella.png"
@@ -135,7 +135,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="expert-row">
+    <mj-section mj-class="expert-row bg-blue">
       <mj-column mj-class="expert-pic">
         <mj-image
             src="assets/images/stefan-risse.png"
@@ -151,7 +151,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="expert-row">
+    <mj-section mj-class="expert-row bg-blue">
       <mj-column mj-class="expert-pic">
         <mj-image
             src="assets/images/robert-halver.png"
@@ -167,7 +167,7 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section mj-class="bg-blue">
       <mj-column>
         <mj-button mj-class="cta-btn" href="" width="190px" height="50px" padding-top="50px">
           Zu den Beiträgen
@@ -258,7 +258,7 @@
 
 
     <!-- Security Section -->
-    <mj-section mj-class="section" padding-top="60px" css-class="grey-bg">
+    <mj-section mj-class="section bg-grey" padding-top="60px">
       <mj-column width="10%" vertical-align="bottom" padding-bottom="15px">
         <mj-image
         src="assets/images/attention-icon.svg"
@@ -321,7 +321,7 @@
 
 
     <mj-wrapper mj-class="footer">
-    <mj-section>
+    <mj-section mj-class="bg-black">
       <mj-column width="66%">
         <mj-text>
           <p class="footer-text">
@@ -345,7 +345,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding-top="60px">  
+    <mj-section padding-top="60px" mj-class="bg-black">  
       <mj-column width="100%">
         <mj-text>
           <p class="footer-text">
