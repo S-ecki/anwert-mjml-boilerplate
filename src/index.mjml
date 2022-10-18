@@ -1,8 +1,9 @@
-<mjml version="4.2">
+<mjml version="4.2" lang="de">
   <mj-head>
     @@include('./includes/styles.mjml')
 
     <mj-title>easybank</mj-title>
+    <!-- TODO -->
     <mj-preview>easybank</mj-preview>
 
     <mj-raw>
