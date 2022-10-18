@@ -3,11 +3,12 @@
     @@include('./includes/styles.mjml')
 
     <mj-title>easybank</mj-title>
-    <!-- TODO -->
-    <mj-preview>easybank</mj-preview>
+    <mj-preview>
+        easybank - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+     </mj-preview>
 
     <mj-raw>
-      <!-- TODO: Logo easy bank -->
+      <!-- TODO add easybank logo -->
       <link rel="shortcut icon" type="image/x-icon" href="https://anwert.io/favicon.ico">
     </mj-raw>
   </mj-head>
@@ -233,15 +234,18 @@
 
 
     <!-- Image CTA Section -->
-    <mj-section padding-top="70px" padding-bottom="270px">
+    <mj-wrapper>
+    <mj-section padding-top="70px">
       <mj-column width="100%">
         <mj-image
-          src="assets/images/palm_with_sticker.png"
+          src="assets/images/palm-with-sticker.png"
           css-class="custom-image"
           height="330px"
           width="520px"
           alt="Picture of palm trees with sky in the background" />
       </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="270px">
       <mj-column width="100%" padding-top="60px" padding-bottom="45px" css-class="green-bg">
         <mj-text align="center">
           <h1>
@@ -255,12 +259,14 @@
         </mj-button>
       </mj-column>
     </mj-section>
+    </mj-wrapper>
 
 
 
     <!-- Security Section -->
-    <mj-section mj-class="section bg-grey" padding-top="60px">
-      <mj-column width="10%" vertical-align="bottom" padding-bottom="15px">
+    
+    <mj-section mj-class="section bg-grey"  padding-top="60px">
+      <mj-column width="10%" padding-bottom="15px">
         <mj-image
         src="assets/images/attention-icon.svg"
         width="41px"
@@ -274,44 +280,50 @@
           </h4>
         </mj-text>
       </mj-column>
+    </mj-section>
 
-      <mj-column width="100%">
-        <mj-spacer height="15px"></mj-spacer>
-      </mj-column>
+    @@include('./partials/_security-spacer.mjml')
 
-      <mj-column width="100%" css-class="security-border">
-        <mj-text css-class="security-text">
-           <p>
+    <mj-section mj-class="bg-grey section">
+      <mj-column css-class="security-border">
+        <mj-text mj-class="security-text" padding-left="18px">
             easybank würde niemals per E-Mail nach sensiblen persönlichen Daten fragen. Dazu zählen insbesondere Verfügernummer, PIN, Kreditkartendaten, PIN-Code, Passwort und TAN.
-           </p>
         </mj-text>
       </mj-column>
+    </mj-section>
 
-      @@include('./partials/_security-spacer.mjml')
+    @@include('./partials/_security-spacer.mjml')
       
-      <mj-column width="100%" css-class="security-border">
-        <mj-text css-class="security-text">
+    <mj-section mj-class="bg-grey section">
+      <mj-column css-class="security-border">
+        <mj-text mj-class="security-text">
             Geben Sie Ihre persönlichen Daten oder Zahlungsdaten nur auf verschlüsselten Seiten ein. Diese erkennen Sie am Schloss Symbol oder daran, dass in der Adressleiste des Browsers „https://…“ angezeigt wird.
         </mj-text>
       </mj-column>
+    </mj-section>
 
-      @@include('./partials/_security-spacer.mjml')
+    @@include('./partials/_security-spacer.mjml')
 
-      <mj-column width="100%" css-class="security-border">
-        <mj-text css-class="security-text">
+    <mj-section mj-class="bg-grey section">
+      <mj-column css-class="security-border">
+        <mj-text mj-class="security-text">
             Rufen Sie Links über den Browser auf, wenn Sie unsicher sein sollten, ob der E-Mail-Absender vertrauenswürdig ist. 
         </mj-text>
       </mj-column>
+    </mj-section>
 
-      @@include('./partials/_security-spacer.mjml')
+    @@include('./partials/_security-spacer.mjml')
 
-      <mj-column width="100%" css-class="security-border">
-        <mj-text css-class="security-text">
+    <mj-section mj-class="bg-grey section">
+      <mj-column css-class="security-border">
+        <mj-text mj-class="security-text">
             Wir kontaktieren Sie im Missbrauchsverdacht. Halten Sie Ihre Kontaktdaten bei uns immer aktuell.
         </mj-text>
       </mj-column>
+    </mj-section>
 
-      <mj-column width="100%" padding-bottom="65px" padding-top="35px">
+    <mj-section mj-class="bg-grey section">
+      <mj-column padding-bottom="65px" padding-top="35px">
         <mj-text>
           <p class="bold">
             Mehr Tipps für Ihre Sicherheit und aktuelle Phishing-Warnungen finden Sie auf unserem Sicherheitsportal <a href="https://www.easybank.at/sicher" class="black">https://www.easybank.at/sicher</a> 
@@ -319,7 +331,6 @@
         </mj-text>
       </mj-column>
     </mj-section>
-
 
     <mj-wrapper mj-class="footer">
     <mj-section mj-class="bg-black">
@@ -347,7 +358,7 @@
     </mj-section>
 
     <mj-section padding-top="60px" mj-class="bg-black">  
-      <mj-column width="100%">
+      <mj-column>
         <mj-text>
           <p class="footer-text">
              BAWAG P.S.K. Bank für Arbeit und Wirtschaft und <br/>

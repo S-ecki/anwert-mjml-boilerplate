@@ -1,3 +1,5 @@
-<mj-column width="100%">
-    <mj-spacer height="25px"></mj-spacer>
-</mj-column>
+<mj-section mj-class="section bg-grey">
+    <mj-column width="100%">
+        <mj-spacer height="25px"></mj-spacer>
+    </mj-column>
+</mj-section>
